@@ -10,7 +10,7 @@ definePageConfig({
 export default function Main() {
   return (
     <View className="index text-red-600">
-      Home
+      <Button >分享给好友</Button>
     </View>
   );
 }
