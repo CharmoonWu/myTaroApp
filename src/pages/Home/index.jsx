@@ -1,7 +1,5 @@
 import { View, Text } from "@tarojs/components";
-import { useEffect } from "react";
 import { Button } from "@nutui/nutui-react-taro";
-import Taro from "@tarojs/taro";
 
 definePageConfig({
   navigationBarTitleText: 'Home'

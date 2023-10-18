@@ -201,13 +201,11 @@
 /******/ 				"webpack/container/remote/@tarojs/plugin-framework-react/dist/runtime",
 /******/ 				"webpack/container/remote/react-dom"
 /******/ 			],
-/******/ 			"pages/Auth/index": [
-/******/ 				"webpack/container/remote/react/jsx-runtime"
-/******/ 			],
 /******/ 			"common": [
 /******/ 				"webpack/container/remote/@tarojs/runtime",
 /******/ 				"webpack/container/remote/@tarojs/taro",
-/******/ 				"webpack/container/remote/react"
+/******/ 				"webpack/container/remote/react",
+/******/ 				"webpack/container/remote/react/jsx-runtime"
 /******/ 			]
 /******/ 		};
 /******/ 		var idToExternalAndNameMapping = {
@@ -231,11 +229,6 @@
 /******/ 				"./react-dom",
 /******/ 				null
 /******/ 			],
-/******/ 			"webpack/container/remote/react/jsx-runtime": [
-/******/ 				"default",
-/******/ 				"./react/jsx-runtime",
-/******/ 				null
-/******/ 			],
 /******/ 			"webpack/container/remote/@tarojs/runtime": [
 /******/ 				"default",
 /******/ 				"./@tarojs/runtime",
@@ -249,6 +242,11 @@
 /******/ 			"webpack/container/remote/react": [
 /******/ 				"default",
 /******/ 				"./react",
+/******/ 				null
+/******/ 			],
+/******/ 			"webpack/container/remote/react/jsx-runtime": [
+/******/ 				"default",
+/******/ 				"./react/jsx-runtime",
 /******/ 				null
 /******/ 			]
 /******/ 		};

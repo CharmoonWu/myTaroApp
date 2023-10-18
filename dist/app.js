@@ -1,16 +1,17 @@
 "use strict";
-require("./prebundle/vendors-node_modules_taro_weapp_prebundle_react-dom_js.js");
-require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-DUXJIVJA_js.js");
-require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-NVNIGMA6_js.js");
+require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-3SIV36DX_js.js");
+require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-EFL2AF6K_js.js");
 require("./prebundle/vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-framework-react_dist_runtime_js.js");
+require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-RMTX7BD6_js.js");
 require("./prebundle/vendors-node_modules_taro_weapp_prebundle_tarojs_taro_js.js");
+require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-IVWKXT7T_js.js");
 require("./prebundle/node_modules_taro_weapp_prebundle_tarojs_runtime_js.js");
 require("./prebundle/vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-platform-weapp_dist_runtime_js.js");
-require("./prebundle/vendors-node_modules_taro_weapp_prebundle_chunk-LNJCN3VW_js.js");
 require("./prebundle/vendors-node_modules_taro_weapp_prebundle_tarojs_plugin-html_dist_runtime_js.js");
 require("./prebundle/remoteEntry.js");
-require("./prebundle/node_modules_taro_weapp_prebundle_react_jsx-runtime_js.js");
+require("./prebundle/node_modules_taro_weapp_prebundle_react-dom_js.js");
 require("./prebundle/node_modules_taro_weapp_prebundle_react_js.js");
+require("./prebundle/node_modules_taro_weapp_prebundle_react_jsx-runtime_js.js");
 
 require("./taro");
 require("./runtime");
@@ -67,7 +68,7 @@ function App(_ref) {
 
 
 
-var config = {"entryPagePath":"pages/Auth/index","pages":["pages/Auth/index"],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"}};
+var config = {"pages":["pages/pagesMain/index"],"subpackages":[{"root":"pages/packageA/","pages":["page/Cat","page/Dog"]},{"root":"pages/packageB/","pages":["page/Apple","page/Banana"]}],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"}};
 _tarojs_runtime__WEBPACK_IMPORTED_MODULE_2__.window.__taroAppConfig = config
 var inst = App((0,_tarojs_plugin_framework_react_dist_runtime__WEBPACK_IMPORTED_MODULE_3__.createReactApp)(_node_modules_babel_loader_lib_index_js_ruleSet_1_rules_5_use_0_app_js__WEBPACK_IMPORTED_MODULE_5__["default"], react__WEBPACK_IMPORTED_MODULE_6__, (react_dom__WEBPACK_IMPORTED_MODULE_7___default()), config))
 

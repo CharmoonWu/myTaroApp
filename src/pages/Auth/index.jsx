@@ -1,6 +1,6 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "preact/hooks";
 import { Tabbar } from "@nutui/nutui-react-taro";
-import { Cart, Category, Find, Home, My } from "@nutui/icons-react-taro";
+import { Home, My } from "@nutui/icons-react-taro";
 import Taro from "@tarojs/taro";
 import { View } from "@tarojs/components";
 import HomeView from "@/pages/Home";

@@ -36,7 +36,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       options: {
       }
     },
-    framework: 'react',
+    framework: 'preact',
     compiler: {
       type: 'webpack5',
       prebundle: {
@@ -93,6 +93,9 @@ export default defineConfig(async (merge, { command, mode }) => {
       }
     },
     h5: {
+      devServer: {
+        hot: false,
+      },
       publicPath: '/',
       staticDirectory: 'static',
       output: {
